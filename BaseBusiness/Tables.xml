@@ -1,0 +1,198 @@
+<Tables>
+
+	<Table>
+		<name>SonPlan</name>
+		<column>
+			<name>iD</name>
+			<dataType>int</dataType>
+			<isPK>true</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias></alias>
+			<number>0</number>
+		</column>
+		<column>
+			<name>dateExported</name>
+			<dataType>datetime</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Date Exported</alias>
+			<number>1</number>
+		</column>
+		<column>
+			<name>partCode</name>
+			<dataType>varchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Part Code</alias>
+			<number>2</number>
+		</column>
+		<column>
+			<name>lotSize</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Lot Size</alias>
+			<number>3</number>
+		</column>
+		<column>
+			<name>qtyPlan</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Qty Plan</alias>
+			<number>4</number>
+		</column>
+		<column>
+			<name>prodDate</name>
+			<dataType>datetime</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Prod Date</alias>
+			<number>5</number>
+		</column>
+		<column>
+			<name>realProdQty</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Real Prod Qty</alias>
+			<number>6</number>
+		</column>
+		<column>
+			<name>nG</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>N G</alias>
+			<number>7</number>
+		</column>
+		<column>
+			<name>orderCode</name>
+			<dataType>varchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Order Code</alias>
+			<number>8</number>
+		</column>
+		<column>
+			<name>saleCode</name>
+			<dataType>varchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Sale Code</alias>
+			<number>9</number>
+		</column>
+		<column>
+			<name>oP</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>O P</alias>
+			<number>10</number>
+		</column>
+		<column>
+			<name>shipTo</name>
+			<dataType>varchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Ship To</alias>
+			<number>11</number>
+		</column>
+		<column>
+			<name>shipVia</name>
+			<dataType>varchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Ship Via</alias>
+			<number>12</number>
+		</column>
+		<column>
+			<name>confirmCode</name>
+			<dataType>nvarchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Confirm Code</alias>
+			<number>13</number>
+		</column>
+		<column>
+			<name>note</name>
+			<dataType>nvarchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Note</alias>
+			<number>14</number>
+		</column>
+		<column>
+			<name>workerCode</name>
+			<dataType>nvarchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Worker Code</alias>
+			<number>15</number>
+		</column>
+		<column>
+			<name>printedDate</name>
+			<dataType>datetime</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Printed Date</alias>
+			<number>16</number>
+		</column>
+		<column>
+			<name>cnt</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Cnt</alias>
+			<number>17</number>
+		</column>
+		<column>
+			<name>status</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Status</alias>
+			<number>18</number>
+		</column>
+	</Table>
+
+</Tables>
+
